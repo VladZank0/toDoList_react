@@ -1,0 +1,36 @@
+.todo-item{
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+}
+.todo-item p{
+    min-height: 45px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 45px;
+    padding: 0 15px;
+    width: 100%;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background: linear-gradient(to right, rgb(97, 27, 184), rgb(104, 129, 197));
+    border-radius: 5px;
+}
+.todo-item button{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: none;
+    font-weight: 600;
+    font-size: medium;
+    transition: .5s;
+    width: 25px;
+    height: 25px;
+}
+.todo-item button:hover{
+    background-color: red;
+    transition: .5s;
+    cursor: pointer;
+}
