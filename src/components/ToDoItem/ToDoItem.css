@@ -2,19 +2,33 @@
     margin: 0 auto;
     max-width: 600px;
     position: relative;
-}
-.todo-item p{
     min-height: 45px;
     box-sizing: border-box;
     text-align: left;
     line-height: 45px;
-    padding: 0 15px;
+    padding: 0 50px 0 10px;
     width: 100%;
     border: none;
     color: rgb(255, 255, 255);
     font-size: 15px;
     background: linear-gradient(to right, rgb(97, 27, 184), rgb(104, 129, 197));
     border-radius: 5px;
+}
+.todo-item p{
+    overflow-x: auto;
+}
+.todo-item p:hover{
+    cursor: pointer;
+}
+.todo-item p::-webkit-scrollbar {
+    height: 2px;
+    border-radius: 2px;
+    background-color: #313131;
+}
+.todo-item p::-webkit-scrollbar-thumb {
+    width: 2px;
+    height: 1px;
+    background-color: #b7b7b7;
 }
 .todo-item button{
     position: absolute;
@@ -28,9 +42,17 @@
     transition: .5s;
     width: 25px;
     height: 25px;
+    box-shadow: 0 0 2.8px;
 }
 .todo-item button:hover{
     background-color: red;
     transition: .5s;
     cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+    color: rgb(91, 224, 91) !important;
+}
+.completed ~ button{
+    background-color: red;
 }

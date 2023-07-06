@@ -6,7 +6,8 @@
 
 }
 .todo-form input{
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 40px;
     outline: none;
     border: none;
@@ -40,4 +41,22 @@
     transition: .5s;
   
     cursor: pointer;
+}
+
+@media(max-width:445px){
+    .todo-form {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        height: 115px;
+        flex-direction: column;
+        align-content: center;
+    }
+    .todo-form input {
+        border: 2px solid rgb(97, 27, 184);
+        border-radius: 3px;
+    }
+    .todo-form button {
+       border-radius: 3px;
+    }
 }
