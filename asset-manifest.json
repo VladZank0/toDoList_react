@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/vladzank0.github.io/toDoList_react/static/css/main.f2bf6aeb.css",
-    "main.js": "/vladzank0.github.io/toDoList_react/static/js/main.7118b645.js",
-    "index.html": "/vladzank0.github.io/toDoList_react/index.html",
-    "main.f2bf6aeb.css.map": "/vladzank0.github.io/toDoList_react/static/css/main.f2bf6aeb.css.map",
-    "main.7118b645.js.map": "/vladzank0.github.io/toDoList_react/static/js/main.7118b645.js.map"
+    "main.css": "/toDoList_react/static/css/main.f2bf6aeb.css",
+    "main.js": "/toDoList_react/static/js/main.7118b645.js",
+    "index.html": "/toDoList_react/index.html",
+    "main.f2bf6aeb.css.map": "/toDoList_react/static/css/main.f2bf6aeb.css.map",
+    "main.7118b645.js.map": "/toDoList_react/static/js/main.7118b645.js.map"
   },
   "entrypoints": [
     "static/css/main.f2bf6aeb.css",
