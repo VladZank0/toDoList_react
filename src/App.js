@@ -8,7 +8,7 @@ function App() {
   const addTask = (text) => {
     if(text){
       let item = {
-        id: tasks.length,
+        id: Date.now(),
         text: text,
         completed: false
       }
