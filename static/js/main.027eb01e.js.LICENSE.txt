@@ -37,5 +37,3 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-
-//! Обязательны {} так как нужно если e.id === id вернуть именно объект, без них мы просто изменим свойство, а самого объекта не будет
